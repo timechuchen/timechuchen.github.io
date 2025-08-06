@@ -1,0 +1,28 @@
+{
+  "name": "jingn-website",
+  "description": "A project of vuepress-theme-hope",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-webpack build src",
+    "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
+    "docs:dev": "vuepress-webpack dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-webpack": "2.0.0-rc.24",
+    "@vuepress/plugin-markdown-tab": "^2.0.0-rc.112",
+    "@vuepress/plugin-register-components": "^2.0.0-rc.112",
+    "raw-loader": "^4.0.2",
+    "sass-embedded": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-hope": "2.0.0-rc.94"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "element-plus": "^2.10.5",
+    "vxe-table": "^4.15.4"
+  }
+}
