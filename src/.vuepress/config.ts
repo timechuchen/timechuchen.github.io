@@ -7,7 +7,7 @@ const __dirname = import.meta.dirname || getDirname(import.meta.url)
 
 
 export default defineUserConfig({
-  base: "/gh-pages",
+  base: "gh-pages",
 
   lang: "en-US",
   title: "Docs Demo",
