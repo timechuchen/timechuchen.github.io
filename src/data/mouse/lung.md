@@ -19,10 +19,10 @@ export default {
         { id: 5, name: 'Charlie Davis', age: 35, email: 'charlie@example.com' }
       ],
       tableColumns: [
-        { prop: 'id', label: 'ID', width: '180', align: 'center' },
-        { prop: 'name', label: 'Name', width: '180' },
-        { prop: 'age', label: 'Age', width: '200', align: 'center' },
-        { prop: 'email', label: 'Email', width: '200' }
+        { prop: 'id', label: 'ID', align: 'center' },
+        { prop: 'name', label: 'Name' },
+        { prop: 'age', label: 'Age', align: 'center' },
+        { prop: 'email', label: 'Email' }
       ],
       total: 5,
       pageSize: 10
